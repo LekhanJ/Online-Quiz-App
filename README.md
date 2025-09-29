@@ -5,8 +5,6 @@ An interactive web application for creating, taking, and reviewing quizzes. The 
 - **Frontend**: React 19, Vite 7, Tailwind CSS 4, Zustand, React Router, React Hook Form
 - **Backend**: Express 4, JWT, Sequelize 6, SQLite3, Helmet, Rate limiting, Joi validation
 
-> Drop screenshots into `docs/images/` using the suggested filenames below and they will render in this README.
-
 
 ## Demo Screenshots
 
@@ -25,8 +23,6 @@ An interactive web application for creating, taking, and reviewing quizzes. The 
 - Results & History
   
   ![Results](docs/images/results.png)
-
-> Image placeholders: `docs/images/home.png`, `docs/images/create-quiz.png`, `docs/images/take-quiz.png`, `docs/images/results.png`.
 
 
 ## Table of Contents
@@ -106,7 +102,7 @@ online-quiz-app/
 │  └─ package.json
 │
 └─ docs/
-   └─ images/              # place README screenshots here
+   └─ images/              # README screenshots here
 ```
 
 
@@ -255,5 +251,3 @@ location /api/ {
 - DB issues: delete the local `backend/quiz_app.db` if schema changed in dev and let Sequelize re-sync, or run migrations if you add them.
 
 ---
-
-If you want, I can add a `docs/` template and placeholder images, or wire up CI checks (lint, test) and deploy recipes. Ready to iterate on screenshots and any branding you prefer.
